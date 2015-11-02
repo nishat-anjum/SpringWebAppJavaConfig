@@ -1,0 +1,107 @@
+body {
+    color: #404040;
+    background: #d9d9d9;
+}
+
+section.container {
+    margin: 80px auto;
+    width: 300px;
+}
+
+.formDiv {
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 310px;
+    background: white;
+}
+
+.formDiv h1 {
+    margin: -20px -20px 21px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    background: #ececec;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.formDiv p {
+    margin: 20px 0 0;
+}
+
+.formDiv input[type=email], .formDiv input[type=password] {
+    width: 278px;
+    height: 25px;
+    background-color: #f2f2f2;
+}
+
+.formDiv p.submit {
+    text-align: center;
+}
+
+input {
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+input[type=submit], input[type=button] {
+    padding: 0 18px;
+    height: 29px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #527881;
+    background: #cde5ef;
+    border: 1px solid;
+    border-radius: 16px;
+}
+
+input[type=submit]:active {
+    background: #cde5ef;
+    border-color: #9eb9c2 #b3c0c8 #b4ccce;
+}
+
+table th {
+    padding-right: 25px;
+    text-align: right;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+div#signUpForm {
+    padding: 15px;
+    width: 60%;
+    display: none;
+}
+
+div#signUpError {
+    padding-bottom: 20px;
+    font-weight: bold;
+    display: none;
+    color: #ff0000;
+    text-align: center;
+}
+
+p#successMessage {
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #008000;
+}
+
+.alert {
+    color: #ff0000;
+}
+
+span#newUser {
+    margin-right: 7px;
+    color: #e57375;
+    font-weight: bold;
+}
+
+table th {
+    text-align: left;
+}
+
+span.alert {
+    padding-left: 7px;
+}
