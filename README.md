@@ -1,5 +1,6 @@
 This is a simple Spring Web Mvc project.
-It is a simple Registration and login form.
+
+It is a Registration and login Application where User can register and log in the app and get their profile info.
 Spring Security has been used for user Authentication.
 Spring Embedded Database HSQLD used for DB.
 
@@ -10,6 +11,6 @@ To run this project hit this commands
 
 In browser Address Bar hit
 
-http://localhost:8080/SpringDemoProject/login 
+http://localhost:8080/SpringDemoProject/login
 
 
